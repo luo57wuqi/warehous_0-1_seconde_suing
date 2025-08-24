@@ -1,0 +1,16 @@
+<div class="el-scrollbar__view">
+  <a data-v-3c18e64f="" href="./首页.html" class="tags-view-item router-link-exact-active router-link-active active" style="background-color:rgb(64,158,255);border-color:rgb(64,158,255)"> 首页 </a>
+  <a data-v-3c18e64f="" href="./采购申请单管理/采购申请单列表.html" class="tags-view-item"> 采购申请单列表 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./采购申请单管理/采购申请单明细.html" class="tags-view-item"> 采购申请单明细 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./出货单管理/出货单列表.html" class="tags-view-item"> 出货单列表 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./出货单管理/出货通知单.html" class="tags-view-item"> 出货通知单 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./出货单管理/出货单对照明细.html" class="tags-view-item"> 出货单对照明细 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./询工费管理/开发开款.html" class="tags-view-item"> 开发开款 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./询工费管理/外采开款.html" class="tags-view-item"> 外采开款 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./询工费管理/内采起版.html" class="tags-view-item"> 内采起版 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./询工费管理/谈工费管理.html" class="tags-view-item"> 谈工费管理 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./供应链管理（供应商）/供应商货品管理.html" class="tags-view-item"> 供应商货品管理 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+  <a data-v-3c18e64f="" href="./库存管理(供应商)/安全库存.html" class="tags-view-item"> 安全库存 <span data-v-3c18e64f="" class="el-icon-close"></span></a>
+</div>
+
+绝对地址
