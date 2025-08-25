@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>传统HTML示例</title>
+</head>
+<body>
+  <div id="app">
+    <input id="messageInput">
+    <p id="messageDisplay"></p>
+  </div>
+
+  <script>
+    const input = document.getElementById('messageInput');
+    const display = document.getElementById('messageDisplay');
+    let message = 'Hello Traditional!';
+    
+    // 初始化显示
+    display.textContent = message;
+    input.value = message;
+    
+    // 监听输入变化
+    input.addEventListener('input', function() {
+      message = this.value;
+      display.textContent = message;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+特性	Vue                                                     	     传统HTML+JS
+数据绑定	自动双向绑定(v-model)	                         需手动操作DOM更新
+变量显示	模板语法({{ }})	                                                 手动textContent/innerHTML
+代码量	更简洁	                                                          更冗长
+维护性	数据驱动，易维护                   	                  需跟踪DOM状态，难维护
+组件化	原生支持       	                                                  需自行实现
+响应式	自动更新相关视图	                                          需手动更新所有相关元素
+
+Vue的核心优势
+声明式渲染：                                      只需声明"数据应该怎样显示"，                                   不用写具体DOM操作
+数据驱动：                                          修改数据自动更新视图，                                             不用手动操作DOM
+组件系统：                                           可复用UI组件，                                                            组合成复杂应用
+状态管理：                                           数据集中管理，                                                              避免分散在各处
+
+
+何时使用Vue？
+需要复杂交互的Web应用
+需要复用UI组件时
+需要维护大型前端项目时
+需要高效更新DOM时
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue测试</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input v-model="text">
+    <p>{{ text }}</p>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: { text: '' }
+    });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Html 和 js</title>
+</head>
+<input id="input">
+<p id="output"></p>
+
+<script>
+  const input = document.getElementById('input');
+  const output = document.getElementById('output');
+  
+  input.addEventListener('input', function() {
+    output.textContent = this.value;
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

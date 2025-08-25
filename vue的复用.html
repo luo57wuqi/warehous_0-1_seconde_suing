@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue双向绑定测试</title>
+  <!-- 使用国内CDN确保能访问 -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.js"></script>
+</head>
+<body>
+  <!-- 必须有一个根元素包裹 -->
+  <div id="app">
+    <h2>Vue双向绑定演示</h2>
+    <input v-model="message" placeholder="试着输入内容...">
+    <p>你输入的内容是：<strong>{{ message }}</strong></p>
+  </div>
+
+  <script>
+    // 确保DOM加载完成再执行
+    document.addEventListener('DOMContentLoaded', function() {
+      new Vue({
+        el: '#app',  // 必须和页面上的元素ID对应
+        data: {
+          message: '初始值'  // 这会显示默认文本
+        }
+      });
+      
+      console.log('Vue已加载，可以开始测试');
+    });
+  </script>
+  
+  <style>
+    #app {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      border: 1px solid #eee;
+      font-family: Arial;
+    }
+    input {
+      padding: 8px;
+      width: 100%;
+      margin: 10px 0;
+    }
+  </style>
+</body>
+</html>
